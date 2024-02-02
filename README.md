@@ -1,27 +1,24 @@
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 #  BMI Calculator
 
-## Our Goal
+![BMI-Calculator](Documentation/BMI-Calculator.gif)
 
-The goal of this tutorial is to learn more about Optionals, solidify your understanding of the MVC design pattern and to introduce the concept of Classes. We’ll compare objects created from classes with instances of Structs that we learnt about earlier. 
+## Goal
 
-## What you will create
+BMI Calculator is a seamlessly designed application developed using Swift and following the Model-View-Controller (MVC) architectural pattern. It provides users with a user-friendly interface to effortlessly calculate their Body Mass Index (BMI). Here's a concise breakdown of its key features:
 
-By the end of the module, you will have made a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies. 
+## Drag Views for Weight and Height Inputs
 
-## What you will learn
+BMI Calculator integrates draggable views for weight and height inputs, allowing users to conveniently set their desired values with a simple swipe or drag gesture. This interactive input method enhances user engagement and provides a smooth and intuitive experience.
 
-* How to create multi-screen apps with animated navigation.
-* Optional binding, optional chaining and the nil coalescing operator.
-* How to create classes and difference between classes and structs. 
-* Pass by value vs. pass by reference. 
-* Formatting Strings. 
-* Color literals.
+## Calculation of BMI
 
+The app employs Swift to perform BMI calculations based on user-provided weight and height inputs. BMI is calculated using the standard formula: BMI = weight (kg) / (height (m) * height (m)). This functionality ensures accurate BMI computation, empowering users to monitor their health effectively.
 
+## Result Display on Modal Screen:
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+Upon entering weight and height data, users can immediately view the calculated BMI result presented on a modal screen. The modal screen displays the calculated BMI value along with a contextual interpretation, such as underweight, normal weight, or overweight, providing users with valuable insights into their health status.
 
-![End Banner](Documentation/readme-end-banner.png)
+## Intuitive User Interface:
+
+BMI Calculator offers a clean and intuitive user interface, prioritizing simplicity and clarity for seamless user interaction. Users can effortlessly input their weight and height and navigate through the app with ease, ensuring a hassle-free experience.
